@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+
+
+{% block title %}
+{{title}}
+{% endblock %}
+{% block body %}
+{% comment %} LIST ONLY {% endcomment %}
+
+<ol>
+{% for item in list  %}
+<li> {{item.name}} -- {{item.price}}</li>
+{% endfor %}
+<ol>
+
+{% endblock  %}dd

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+{% block title %} {{title}} {% endblock title %}
+
+{% block body %} 
+<form>
+    <input type="text" placeholder="Input Product Name"><br/>
+    <input type="number"  placeholder="Input Price"><br/>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear">
+</form>
+
+{% endblock body %}
